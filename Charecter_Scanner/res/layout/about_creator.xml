@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="84dp"
+        android:layout_height="108dp"
+        android:layout_x="81dp"
+        android:layout_y="0dp"
+        android:src="@drawable/abhi" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_x="35dp"
+        android:layout_y="115dp"
+        android:text="Name : Abhishek.D\n\nAge : 16\n\nYear : 2014\n\nRemarks : &apos;This is my first commercial App&apos;" />
+
+    <Button
+        android:id="@+id/ok_b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_x="108dp"
+        android:layout_y="251dp"
+        android:text="Ok" />
+
+</AbsoluteLayout>
